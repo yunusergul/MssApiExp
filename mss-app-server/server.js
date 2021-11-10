@@ -2,7 +2,7 @@ const express = require("express");
 const NodeCache = require("node-cache");
 const axios = require("axios");
 const url='https://www.omdbapi.com/?';
-const api_key='c4bef52f';
+const api_key='*****';
 const app = express();
 
 const cache = new NodeCache({ stdTTL: 30 });
